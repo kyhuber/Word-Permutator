@@ -26,7 +26,7 @@ def show_results():
     all_letters = [center_letter] + [letter.strip().lower() for letter in additional_letters]
 
     # Load the CSV file containing valid words
-    input_csv_file = "output_alpha.csv"  # Replace with the path to your input CSV file
+    input_csv_file = "Michigan_Words.csv"  # Replace with the path to your input CSV file
     filtered_words = filter_words_by_letter(center_letter, input_csv_file)
 
     # Limit the maximum length of permutations
