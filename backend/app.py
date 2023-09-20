@@ -27,7 +27,7 @@ def index():
         filtered_words = filter_words_by_letter(center_letter, input_csv_file)
 
         # Limit the maximum length of permutations
-        max_length_permutation = 10
+        max_length_permutation = 12
 
         # Generate permutations of letters with repetitions and find the intersection with filtered words
         permutations_set = {permutation_word for length in range(4, max_length_permutation + 1)
